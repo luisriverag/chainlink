@@ -30,7 +30,7 @@
     "cookie": "^0.4.1",
     "d3": "^6.2.0",
     "d3-dag": "^0.4.7",
-    "formik": "^2.2.6",
+    "formik": "^2.2.9",
     "formik-material-ui": "^3.0.1",
     "graphlib-dot": "^0.6.4",
     "humps": "^2.0.1",
