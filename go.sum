@@ -1405,8 +1405,6 @@ github.com/sirupsen/logrus v1.8.1/go.mod h1:yWOB1SBYBC5VeMP7gHvWumXLIWorT60ONWic
 github.com/smartcontractkit/chainlink v0.8.10-0.20200825114219-81dd2fc95bac/go.mod h1:j7qIYHGCN4QqMXdO8g8A9dmUT5vKFmkxPSbjAIfrfNU=
 github.com/smartcontractkit/chainlink v0.9.5-0.20201207211610-6c7fee37d5b7/go.mod h1:kmdLJbVZRCnBLiL6gG+U+1+0ofT3bB48DOF8tjQvcoI=
 github.com/smartcontractkit/libocr v0.0.0-20201203233047-5d9b24f0cbb5/go.mod h1:bfdSuLnBWCkafDvPGsQ1V6nrXhg046gh227MKi4zkpc=
-github.com/smartcontractkit/libocr v0.0.0-20210820145132-3c090fd196cc h1:2w5Qt7+fs0yqwM169e7xKjoYjZ8t/stOAWxvCdBjgfA=
-github.com/smartcontractkit/libocr v0.0.0-20210820145132-3c090fd196cc/go.mod h1:AQktwBooI+Y/8NWdvIzU+EgGoLzpe3mo+o+jluMonTw=
 github.com/smartcontractkit/libocr v0.0.0-20210826183649-d12971936c12 h1:3yXjCJgj91ZRRqq4cV++y2EkKefEJpiWxhvnI14rclw=
 github.com/smartcontractkit/libocr v0.0.0-20210826183649-d12971936c12/go.mod h1:AQktwBooI+Y/8NWdvIzU+EgGoLzpe3mo+o+jluMonTw=
 github.com/smartcontractkit/sqlx v1.3.5-0.20210805004948-4be295aacbeb h1:OMaBUb4X9IFPLbGbCHsMU+kw/BPCrewaVwWGIBc0I4A=
@@ -1988,8 +1986,9 @@ golang.org/x/tools v0.0.0-20201224043029-2b0845dc783e/go.mod h1:emZCQorbCU4vsT4f
 golang.org/x/tools v0.0.0-20210105154028-b0ab187a4818/go.mod h1:emZCQorbCU4vsT4fOWvOPXz4eW1wZW4PmDk9uLelYpA=
 golang.org/x/tools v0.0.0-20210106214847-113979e3529a/go.mod h1:emZCQorbCU4vsT4fOWvOPXz4eW1wZW4PmDk9uLelYpA=
 golang.org/x/tools v0.1.0/go.mod h1:xkSsbof2nBLbhDlRMhhhyNLN/zl3eTqcnHD5viDpcZ0=
-golang.org/x/tools v0.1.2 h1:kRBLX7v7Af8W7Gdbbc908OJcdgtK8bOz9Uaj8/F1ACA=
 golang.org/x/tools v0.1.2/go.mod h1:o0xws9oXOQQZyjljx8fwUC0k7L1pTE6eaCbjGeHmOkk=
+golang.org/x/tools v0.1.5 h1:ouewzE6p+/VEB31YYnTbEJdi8pFqKp4P4n85vwo3DHA=
+golang.org/x/tools v0.1.5/go.mod h1:o0xws9oXOQQZyjljx8fwUC0k7L1pTE6eaCbjGeHmOkk=
 golang.org/x/xerrors v0.0.0-20190410155217-1f06c39b4373/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
 golang.org/x/xerrors v0.0.0-20190513163551-3ee3066db522/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
 golang.org/x/xerrors v0.0.0-20190717185122-a985d3407aa7/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
