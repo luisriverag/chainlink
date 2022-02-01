@@ -74,9 +74,11 @@ require (
 	gonum.org/v1/gonum v0.9.3
 	google.golang.org/protobuf v1.27.1
 	gopkg.in/guregu/null.v4 v4.0.0
-	gorm.io/datatypes v1.0.0
+	gorm.io/datatypes v1.0.5
 	gorm.io/driver/postgres v1.0.8
-	gorm.io/gorm v1.20.12
+	gorm.io/driver/sqlite v1.1.3 // indirect
+	gorm.io/driver/sqlserver v1.0.5 // indirect
+	gorm.io/gorm v1.22.4
 )
 
 // To fix CVE: c16fb56d-9de6-4065-9fca-d2b4cfb13020
