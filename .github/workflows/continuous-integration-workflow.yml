@@ -46,7 +46,7 @@ jobs:
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"      
       - name: Cache Yarn dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3.0.11
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: yarn-${{ env.CACHE_VERSION }}-${{ hashFiles('yarn.lock') }}
@@ -55,7 +55,7 @@ jobs:
       - name: Install Yarn dependencies
         run: make yarndep
       - name: Cache Go vendor packages
-        uses: actions/cache@v2
+        uses: actions/cache@v3.0.11
         with:
           path: /go/pkg/mod
           key: go-mod-${{ env.CACHE_VERSION }}-${{ hashFiles('go.sum') }}
@@ -95,7 +95,7 @@ jobs:
       - name: Checkout the repo
         uses: actions/checkout@v2
       - name: Yarn cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3.0.11
         env:
           cache-name: yarn-cache
         with:
