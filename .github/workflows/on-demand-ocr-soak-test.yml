@@ -96,7 +96,7 @@ jobs:
           echo EVM_KEYS=$EVM_KEYS >> $GITHUB_ENV
           echo SLACK_USER=$SLACK_USER >> $GITHUB_ENV
       - name: Checkout the repo
-        uses: actions/checkout@8e5e7e5ab8b370d6c329ec480221332ada57f0ab # v3.5.2
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
         with:
           ref: ${{ env.REF_NAME }}
       - name: Setup Push Tag
