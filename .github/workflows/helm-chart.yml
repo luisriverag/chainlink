@@ -15,7 +15,7 @@ jobs:
       actions: read
     steps:
       - name: ci-lint-helm-charts
-        uses: smartcontractkit/.github/actions/ci-lint-charts@9fd15fe8e698a5e28bfd06b3a91471c56568dcb3 # ci-lint-charts@0.1.1
+        uses: smartcontractkit/.github/actions/ci-lint-charts@b45d6471ff8a5837f0cec5b8ef494133b4d66e9e # ci-lint-charts@0.1.1
         with:
           # chart testing inputs
           chart-testing-extra-args: "--lint-conf=lintconf.yaml"
