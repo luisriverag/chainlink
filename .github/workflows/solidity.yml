@@ -213,7 +213,7 @@ jobs:
           pnpm version ${{ needs.tag-check.outputs.pre-release-version }} --no-git-tag-version --no-commit-hooks --no-git-checks
 
       - name: Publish to NPM (Dry Run)
-        uses: smartcontractkit/.github/actions/ci-publish-npm@e1c9d45fc66369d6be5d3863c65af1750797a7f5 # ci-publish-npm@0.3.0     
+        uses: smartcontractkit/.github/actions/ci-publish-npm@6b08487b176ef7cad086526d0b54ddff6691c044 # ci-publish-npm@0.3.0     
         with:
           npm-token: ${{ secrets.NPM_TOKEN }}
           create-github-release: false
@@ -255,7 +255,7 @@ jobs:
           fi
 
       - name: Publish to NPM (Dry Run)
-        uses: smartcontractkit/.github/actions/ci-publish-npm@e1c9d45fc66369d6be5d3863c65af1750797a7f5 # ci-publish-npm@0.3.0     
+        uses: smartcontractkit/.github/actions/ci-publish-npm@6b08487b176ef7cad086526d0b54ddff6691c044 # ci-publish-npm@0.3.0     
         with:
           npm-token: ${{ secrets.NPM_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
