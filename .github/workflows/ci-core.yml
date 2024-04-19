@@ -176,7 +176,7 @@ jobs:
         working-directory: ./.github/actions/setup-postgres
       - name: Store logs artifacts
         if: ${{ needs.filter.outputs.changes == 'true' && always() }}
-        uses: actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3 # v4.3.1
+        uses: actions/upload-artifact@1746f4ab65b179e0ea60a494b83293b640dd5bba # v4.3.2
         with:
           name: ${{ matrix.type.cmd }}_logs
           path: |
@@ -278,7 +278,7 @@ jobs:
             `ls -R ./artifacts/go_core_tests*/output.txt`
       - name: Store logs artifacts
         if: ${{ needs.filter.outputs.changes == 'true' && always() }}
-        uses: actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3 # v4.3.1
+        uses: actions/upload-artifact@1746f4ab65b179e0ea60a494b83293b640dd5bba # v4.3.2
         with:
           name: flakey_test_runner_logs
           path: |

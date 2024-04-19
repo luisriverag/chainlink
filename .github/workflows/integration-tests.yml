@@ -701,7 +701,7 @@ jobs:
           ls -l ./integration-tests/smoke/traces
       - name: Upload Trace Data
         if: steps.check-label.outputs.trace == 'true' && matrix.product.name == 'ocr2' && matrix.product.tag_suffix == '-plugins'
-        uses: actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3 # v4.3.1
+        uses: actions/upload-artifact@1746f4ab65b179e0ea60a494b83293b640dd5bba # v4.3.2
         with:
           name: trace-data
           path: ./integration-tests/smoke/traces/trace-data.json
@@ -858,7 +858,7 @@ jobs:
           QA_AWS_ROLE_TO_ASSUME: ${{ secrets.QA_AWS_ROLE_TO_ASSUME }}
           QA_KUBECONFIG: ${{ secrets.QA_KUBECONFIG }}
       - name: Upload test log
-        uses: actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3 # v4.3.1
+        uses: actions/upload-artifact@1746f4ab65b179e0ea60a494b83293b640dd5bba # v4.3.2
         if: failure()
         with:
           name: test-log-${{ matrix.product.name }}
@@ -1163,7 +1163,7 @@ jobs:
           QA_KUBECONFIG: ""
           run_setup: false
       - name: Upload test log
-        uses: actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3 # v4.3.1
+        uses: actions/upload-artifact@1746f4ab65b179e0ea60a494b83293b640dd5bba # v4.3.2
         if: failure()
         with:
           name: test-log-solana
