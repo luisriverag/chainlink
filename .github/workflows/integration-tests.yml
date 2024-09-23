@@ -362,7 +362,7 @@ jobs:
           go_coverage_dest_dir: ${{ github.workspace }}/.covdata
 
       - name: Upload Coverage Data
-        uses: actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3
+        uses: actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874 # v4.4.0
         with:
           name: cl-node-coverage-data-${{ matrix.product.name }}
           path: .covdata
@@ -464,7 +464,7 @@ jobs:
           go_coverage_dest_dir: ${{ github.workspace }}/.covdata
 
       - name: Upload Coverage Data
-        uses: actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3
+        uses: actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874 # v4.4.0
         with:
           name: cl-node-coverage-data-${{ matrix.product.name }}
           path: .covdata
@@ -675,7 +675,7 @@ jobs:
           go_coverage_dest_dir: ${{ github.workspace }}/.covdata
 
       - name: Upload Coverage Data
-        uses: actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3
+        uses: actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874 # v4.4.0
         with:
           name: cl-node-coverage-data-${{ matrix.product.name }}-${{ matrix.product.tag_suffix }}
           path: .covdata
@@ -704,7 +704,7 @@ jobs:
           ls -l ./integration-tests/smoke/traces
       - name: Upload Trace Data
         if: steps.check-label.outputs.trace == 'true' && matrix.product.name == 'ocr2' && matrix.product.tag_suffix == '-plugins'
-        uses: actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3 # v4.3.1
+        uses: actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874 # v4.4.0
         with:
           name: trace-data
           path: ./integration-tests/smoke/traces/trace-data.json
@@ -913,7 +913,7 @@ jobs:
           go_coverage_dest_dir: ${{ github.workspace }}/.covdata
           should_tidy: "false"
       - name: Upload Coverage Data
-        uses: actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3
+        uses: actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874 # v4.4.0
         with:
           name: cl-node-coverage-data-migration-tests
           path: .covdata
@@ -1218,7 +1218,7 @@ jobs:
           go_coverage_dest_dir: ${{ github.workspace }}/.covdata          
 
       - name: Upload Coverage Data
-        uses: actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3
+        uses: actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874 # v4.4.0
         with:
           name: cl-node-coverage-data-solana-tests
           path: .covdata
