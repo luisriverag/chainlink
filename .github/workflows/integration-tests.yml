@@ -167,7 +167,7 @@ jobs:
           cache_key_id: ${{ matrix.project.cache_id }}
           cache_restore_only: "true"
       - name: Lint Go
-        uses: golangci/golangci-lint-action@3cfe3a4abbb849e10058ce4af15d205b6da42804 # v4.0.0
+        uses: golangci/golangci-lint-action@971e284b6050e8a5849b72094c50ab08da042db8 # v6.1.1
         with:
           version: v1.59.1
           # We already cache these directories in setup-go
