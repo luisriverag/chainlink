@@ -212,7 +212,7 @@ require (
 	github.com/alitto/pond/v2 v2.5.0 // indirect
 	github.com/andybalholm/brotli v1.2.0 // indirect
 	github.com/apache/arrow-go/v18 v18.5.2 // indirect
-	github.com/aptos-labs/aptos-go-sdk v1.12.1
+	github.com/aptos-labs/aptos-go-sdk v1.13.0
 	github.com/armon/go-metrics v0.4.1 // indirect
 	github.com/atombender/go-jsonschema v0.16.1-0.20240916205339-a74cd4e2851c // indirect
 	github.com/avast/retry-go v3.0.0+incompatible // indirect
