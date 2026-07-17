@@ -49,7 +49,7 @@ require (
 	github.com/confluentinc/confluent-kafka-go v1.9.2
 	github.com/ethereum/go-ethereum v1.17.2
 	github.com/fbsobreira/gotron-sdk v0.0.0-20250403083053-2943ce8c759b
-	github.com/gagliardetto/solana-go v1.14.0
+	github.com/gagliardetto/solana-go v1.22.0
 	github.com/gin-gonic/gin v1.10.1
 	github.com/google/uuid v1.6.0
 	github.com/lib/pq v1.11.1
@@ -163,6 +163,7 @@ require (
 	github.com/smartcontractkit/cld-changesets v0.0.0-20260427210718-b873c54e8d22 // indirect
 	github.com/stellar/go-stellar-sdk v0.1.0 // indirect
 	github.com/stellar/go-xdr v0.0.0-20231122183749-b53fb00bcac2 // indirect
+	go.mongodb.org/mongo-driver/v2 v2.5.0 // indirect
 	go.opentelemetry.io/collector/internal/componentalias v0.148.0 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
@@ -377,7 +378,7 @@ require (
 	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
 	github.com/go-webauthn/webauthn v0.9.4 // indirect
 	github.com/go-webauthn/x v0.1.5 // indirect
-	github.com/goccy/go-json v0.10.5 // indirect
+	github.com/goccy/go-json v0.10.6 // indirect
 	github.com/goccy/go-yaml v1.19.2 // indirect
 	github.com/godbus/dbus v0.0.0-20190726142602-4481cbc300e2 // indirect
 	github.com/gofrs/flock v0.13.0 // indirect
@@ -534,7 +535,7 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
 	github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f // indirect
-	github.com/oasisprotocol/curve25519-voi v0.0.0-20230904125328-1f23a7beb09a // indirect
+	github.com/oasisprotocol/curve25519-voi v0.0.0-20251114093237-2ab5a27a1729 // indirect
 	github.com/oklog/run v1.2.0 // indirect
 	github.com/oklog/ulid/v2 v2.1.1 // indirect
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
@@ -635,7 +636,7 @@ require (
 	github.com/spf13/cobra v1.10.2 // indirect
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/stephenlacy/go-ethereum-hdwallet v0.0.0-20230913225845-a4fa94429863 // indirect
-	github.com/streamingfast/logging v0.0.0-20230608130331-f22c91403091 // indirect
+	github.com/streamingfast/logging v0.0.0-20250404134358-92b15d2fbd2e // indirect
 	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/supranational/blst v0.3.16 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d // indirect
@@ -681,7 +682,6 @@ require (
 	go.etcd.io/etcd/api/v3 v3.6.7 // indirect
 	go.etcd.io/etcd/client/pkg/v3 v3.6.7 // indirect
 	go.etcd.io/etcd/client/v3 v3.6.7 // indirect
-	go.mongodb.org/mongo-driver v1.17.9 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/collector/component v1.54.0 // indirect
 	go.opentelemetry.io/collector/confmap v1.54.0 // indirect
